@@ -1,0 +1,75 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "TestAzureDatafactory000001"
+		},
+		"ADLS_accountKey": {
+			"value": ""
+		},
+		"ADLS_Tokyo_Olymic_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"LS_AzureDataLakeStorageTestConnection_accountKey": {
+			"value": ""
+		},
+		"LS_BlobTestConnection1_connectionString": {
+			"value": ""
+		},
+		"ADLS_properties_typeProperties_url": {
+			"value": "https://tokyoolymicaccount.dfs.core.windows.net/"
+		},
+		"ADLS_Tokyo_Olymic_properties_typeProperties_url": {
+			"value": "https://tokyoolymicaccount.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://2004datalakegen2.dfs.core.windows.net/"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "azuresqlserverdemo001.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "azuresqldatabase01"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "Srikanth"
+		},
+		"LS_AzureDataLakeStorageTestConnection_properties_typeProperties_url": {
+			"value": "https://adf2000adlsgen2008.dfs.core.windows.net/"
+		},
+		"LS_AzureKeyVault_properties_typeProperties_baseUrl": {
+			"value": "https://azurekeyvault0001.vault.azure.net/"
+		},
+		"LS_HTTPConnection_properties_typeProperties_url": {
+			"value": "@{linkedService().baseURL}"
+		},
+		"ds_sqltable_properties_typeProperties_server": {
+			"value": "azuresqlserverdemo001.database.windows.net"
+		},
+		"ds_sqltable_properties_typeProperties_database": {
+			"value": "azuresqldatabase01"
+		},
+		"ds_sqltable_properties_typeProperties_userName": {
+			"value": "Srikanth"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
