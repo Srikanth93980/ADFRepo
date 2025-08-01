@@ -1,0 +1,9 @@
+{
+	"name": "ADF-Development-1",
+	"location": "southeastasia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "817a85d6-23d6-4cb3-8888-6c8a055b4971",
+		"tenantId": "59c39600-48a2-41d9-99e9-5c60d2fb7d12"
+	}
+}
